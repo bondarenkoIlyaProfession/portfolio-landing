@@ -1,4 +1,4 @@
-### `Responsive photographer portfolio-landing using ReactJS`
+### Responsive photographer portfolio-landing using ReactJS
 
 ## Available Scripts
 
