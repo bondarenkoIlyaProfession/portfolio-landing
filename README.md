@@ -1,5 +1,7 @@
 ### Responsive photographer portfolio-landing using ReactJS
 
+![alt text](src/assets/images/site-screen.png "Landing page screenshot")
+
 ## Available Scripts
 
 In the project directory, you can run:
