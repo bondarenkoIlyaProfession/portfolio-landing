@@ -1,7 +1,8 @@
 .home {
   background: var(--anti-flash-white);
-  height: 100vh;
   padding-top: 77px;
+  position: relative;
+  height: 100vh;
 
   & .container {
     display: flex;

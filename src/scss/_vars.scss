@@ -1,10 +1,39 @@
 :root {
   --white: #fff;
   --black: #000;
+  --silver: #ababab;
+  --shark: #292c32;
+  --deer: #b87d58;
   --mineral-green: #3a5f56;
   --anti-flash-white: #f4f3f0;
-  --shark: #292c32;
+  --ghost-white: #fbfaf9;
+  --bright-grey: #e5e7eb;
+  --punch: #db343b;
 
   --primary-font: "Source Serif Pro";
   --secondary-font: "Roboto";
+}
+
+@mixin info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin title {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+@mixin description {
+  color: var(--shark);
+  width: 590px;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
 }

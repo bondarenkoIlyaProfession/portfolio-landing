@@ -8,6 +8,7 @@
 
 body {
   font-family: var(--secondary-font);
+  position: relative;
 }
 
 a {
@@ -22,4 +23,10 @@ li {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.curved-line {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
 }

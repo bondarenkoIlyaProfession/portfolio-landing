@@ -1,0 +1,33 @@
+.contact {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+
+  &__content {
+    background: var(--anti-flash-white);
+    border-radius: 16px;
+    padding: 80px;
+    width: 800px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-text {
+      color: var(--shark);
+      font-size: 28px;
+      line-height: 34px;
+      width: 300px;
+    }
+
+    &-link {
+      background: var(--mineral-green);
+      color: var(--white);
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      border-radius: 6px;
+      padding: 15px 25px;
+    }
+  }
+}

@@ -1,13 +1,13 @@
 import React from "react";
 
-import logo from "../../assets/images/logo.png";
+import logoGreen from "../../assets/images/logo-green.png";
 
 export const Header = () => {
   return (
     <header className="header">
       <div className="container">
         <a href="#top" className="logo">
-          <img src={logo} alt="logo" />
+          <img src={logoGreen} alt="logo" />
         </a>
 
         <nav className="nav">
