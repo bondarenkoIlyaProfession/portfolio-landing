@@ -1,4 +1,4 @@
-### Responsive photographer portfolio-landing using ReactJS
+### Photographer portfolio-landing using ReactJS
 
 ![alt text](src/assets/images/site-screen.png "Landing page screenshot")
 

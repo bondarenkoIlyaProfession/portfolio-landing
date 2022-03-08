@@ -32,6 +32,12 @@ export const Header = () => {
             </li>
           </ul>
         </nav>
+
+        <div className="hamburger-menu">
+          <span className="hamburger-menu__item"></span>
+          <span className="hamburger-menu__item"></span>
+          <span className="hamburger-menu__item"></span>
+        </div>
       </div>
     </header>
   )

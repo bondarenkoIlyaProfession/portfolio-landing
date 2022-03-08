@@ -16,6 +16,7 @@
 
   &__list {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 50px;
 
@@ -25,8 +26,12 @@
       padding: 30px 0 50px 30px;
       box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.03);
       border-radius: 16px;
-      margin: 0 16px 16px 0;
       width: 32%;
+      margin-bottom: 32px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
 
     &_title {
